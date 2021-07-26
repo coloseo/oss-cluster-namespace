@@ -5,11 +5,11 @@ metadata:
   namespace: oss
 spec:
   hard:
-    requests.cpu: 200m
-    requests.memory: 256Mi
-    limits.cpu: 200m
-    limits.memory: 256Mi
-    requests.storage: 50Gi
+    requests.cpu: 500m
+    requests.memory: 512Mi
+    limits.cpu: 500m
+    limits.memory: 512Mi
+    requests.storage: 100Gi
     persistentvolumeclaims: "10"
     pods: "10"
     configmaps: "10"
